@@ -9,14 +9,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jadenLog/react-boilerplate.git"
+        "url": "git+https://github.com/jadenLog/project_i18next.git"
     },
     "author": "Jaden",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/jadenLog/react-boilerplate/issues"
+        "url": "https://github.com/jadenLog/project_i18next/issues"
     },
-    "homepage": "https://github.com/jadenLog/react-boilerplate#readme",
+    "homepage": "https://github.com/jadenLog/project_i18next#readme",
     "eslintConfig": {
         "extends": [
             "react-app",
