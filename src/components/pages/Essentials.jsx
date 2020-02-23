@@ -1,8 +1,21 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
+import { Alert } from 'antd';
 
 function Essentials() {
+    const { t } = useTranslation();
+
     return (
-        <div>Essentials</div>
+        <>
+            <h2>Essentials</h2>
+            <Alert
+                message="Error"
+                description={t(['error.404', 'error.unspecific'])}
+                type="error"
+                showIcon
+            />
+        </>
     );
 }
 

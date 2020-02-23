@@ -1,0 +1,33 @@
+{
+    "welcome": "Welcome to i18n seminar!",
+    "error": {
+        "unspecific": "Something went wrong.",
+        "404": "The page was not found."
+    },
+
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "nameDisplay": "{{firstName}} {{lastName}}",
+    "introduceName": "Hello, My name is $t(nameDisplay).",
+
+    "dateDisplay": "The current date is {{date, MM/DD/YYYY}}",
+    "uppercaseDisplay": "{{text, uppercase}} just uppercased",
+
+    "item": "{{count}} item",
+    "item_plural": "{{count}} items",
+    "item_interval": "(0){no item};(1){one item};",
+    "itemWidthCount": "{{count}} item",
+    "itemWidthCount_plural": "{{count}} items",
+
+    "nesting1": "1 $t(nesting2)",
+    "nesting2": "2 $t(nesting3)",
+    "nesting3": "3",
+    "girlsAndBoys": "$t(girls, {'count': {{girls}} }) and {{count}} boy",
+    "girlsAndBoys_plural": "$t(girls, {'count': {{girls}} }) and {{count}} boys",
+    "girls": "{{count}} girl",
+    "girls_plural": "{{count}} girls",
+
+    "friend": "A friend",
+    "friend_male": "A boyfriend",
+    "friend_female": "A girlfriend"
+}

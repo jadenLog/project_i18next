@@ -1,0 +1,33 @@
+{
+    "welcome": "i18n 세미나에 오신것을 환영합니다!",
+    "error": {
+        "unspecific": "문제가 발생했습니다.",
+        "404": "페이지를 찾을 수 없습니다."
+    },
+
+    "firstName": "이름",
+    "lastName": "성",
+    "nameDisplay": "{{lastName}}{{firstName}}",
+    "introduceName": "안녕하세요, 제 이름은 $t(nameDisplay) 입니다.",
+
+    "dateDisplay": "오늘의 날짜는 {{date, YYYY/MM/DD}} 입니다.",
+    "uppercaseDisplay": "{{text, uppercase}} 그냥 대문자",
+
+    "item": "{{count}} item",
+    "item_plural": "{{count}} items",
+    "item_interval": "(0){no item};(1){one item};",
+    "itemWidthCount": "{{count}} item",
+    "itemWidthCount_plural": "{{count}} items",
+
+    "nesting1": "1 $t(nesting2)",
+    "nesting2": "2 $t(nesting3)",
+    "nesting3": "3",
+    "girlsAndBoys": "$t(girls, {'count': {{girls}} }) and {{count}} boy",
+    "girlsAndBoys_plural": "$t(girls, {'count': {{girls}} }) and {{count}} boys",
+    "girls": "{{count}} girl",
+    "girls_plural": "{{count}} girls",
+
+    "friend": "친구",
+    "friend_male": "남자친구",
+    "friend_female": "여자친구"
+}
